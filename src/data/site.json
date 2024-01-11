@@ -1,0 +1,48 @@
+{
+  "name": "Thinking like a Jen",
+  "description": "These are the musings of a Jen.",
+  "url": "https://jendewalt.com",
+  "author": {
+    "name": "Jen Dewalt",
+    "email": "jen.dewalt@gmail.com",
+    "twitterHandle": "@JenniferDewalt"
+  },
+  "defaultSocialImage": "/images/default-social-image.png",
+  "headerLinks": [
+    {
+      "text": "Blog",
+      "url": "/blog",
+      "external": false
+    },
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    }
+  ],
+  "socialLinks": [
+    {
+      "text": "Instagram",
+      "url": "https://www.instagram.com/jenniferdewalt/",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/jendewalt",
+      "external": true
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/jenniferdewalt",
+      "external": true
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": true
+    }
+  ],
+  "showFooterAttribution": false
+}

@@ -1,0 +1,37 @@
+---
+layout: base.njk
+pagination:
+  data: collections.posts
+  size: 10
+  reverse: true
+permalink: "blog/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+<h1>All Posts</h1>
+<div class="tags">
+  {% include "tags-list.njk" %}
+</div>
+<ul class="post-list">
+  {% for post in pagination.items %}
+    {% include "posts-list-item.njk" %}
+  {% endfor %}
+</ul>
+<nav class="navigation">
+  <div class="navigation__content">
+    <ul>
+      <li>
+        {% if pagination.href.previous %}
+          <a href="{{ pagination.href.previous }}">Previous</a>
+          {% else %}Previous{% endif %}
+      </li>
+      <li>
+        Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages | length }}
+      </li>
+      <li>
+        {% if pagination.href.next %}
+          <a href="{{ pagination.href.next }}">Next</a>
+          {% else %}Next{% endif %}
+      </li>
+    </ul>
+  </div>
+</nav>
