@@ -2,7 +2,7 @@
 title: Hi! I'm Jen!
 layout: about.njk
 name: Jen Dewalt
-image: '/images/me.jpeg'
+image: '/images/jen_dewalt_headshot.jpeg'
 ---
 
 I'm an entrepreneur, growth hacker, and full stack developer. I taught myself to code by making 180 websites in 180 days.
