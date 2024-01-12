@@ -32,13 +32,15 @@
   "scripts": {
     "dev": "run-p dev:*",
     "start": "eleventy --serve",
-    "build": "run-s clean build:assets build:site copy",
+    "build": "run-s clean build:assets build:site clean:docs copy cname",
     "dev:assets": "env ELEVENTY_ENV=development webpack --mode production --watch",
     "dev:site": "env ELEVENTY_ENV=development eleventy --serve",
     "build:assets": "webpack --mode production",
     "build:site": "env ELEVENTY_ENV=production eleventy",
     "clean": "rm -rf ./public",
-	"copy": "cp -a ./public ./docs"
+    "clean:docs": "rm -rf ./docs",
+	"copy": "cp -a ./public ./docs",
+	"cname": "echo 'jendewalt.com' > ./docs/CNAME"
   },
   "dependencies": {
     "remove": "^0.1.5"
