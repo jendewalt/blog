@@ -39,10 +39,11 @@
     "build:site": "env ELEVENTY_ENV=production eleventy",
     "clean": "rm -rf ./public",
     "clean:docs": "rm -rf ./docs",
-	"copy": "cp -a ./public ./docs",
-	"cname": "echo 'jendewalt.com' > ./docs/CNAME"
+    "copy": "cp -a ./public ./docs",
+    "cname": "echo 'jendewalt.com' > ./docs/CNAME"
   },
   "dependencies": {
+    "eleventy-plugin-footnotes": "^0.11.0",
     "remove": "^0.1.5"
   }
 }

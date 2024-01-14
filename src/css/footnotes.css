@@ -1,0 +1,15 @@
+.Footnotes__ref {
+	font-size: .8rem;
+	color: var(--purple);
+}
+
+footer.Footnotes {
+	margin-top: 4rem;
+}
+
+#footnotes-label {
+	font-size: small;
+}
+footer .Footnotes__list {
+	font-size: .9rem;
+}
