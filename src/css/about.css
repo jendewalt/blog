@@ -3,7 +3,8 @@
 }
 
 .about img {
-  border: 4px solid rgba(0, 0, 0, 70%);
+  /* border: 4px solid rgba(0, 0, 0, 70%); */
+  border: 4px solid var(--accent);
   float: none;
   margin-left: auto;
   margin-right: auto;
