@@ -36,17 +36,6 @@
   
     
       <url>
-        <loc>https://jendewalt.com/about/</loc>
-        
-          <lastmod>2024-01-11T17:53:51.000Z</lastmod>
-        
-        
-        
-      </url>
-    
-  
-    
-      <url>
         <loc>https://jendewalt.com/blog/</loc>
         
           <lastmod>2024-01-11T18:10:20.000Z</lastmod>
@@ -58,9 +47,9 @@
   
     
       <url>
-        <loc>https://jendewalt.com/</loc>
+        <loc>https://jendewalt.com/posts/on-pathfinding/</loc>
         
-          <lastmod>2024-01-11T18:17:38.000Z</lastmod>
+          <lastmod>2024-01-15T00:00:00.000Z</lastmod>
         
         
         
@@ -69,9 +58,20 @@
   
     
       <url>
-        <loc>https://jendewalt.com/posts/on-pathfinding/</loc>
+        <loc>https://jendewalt.com/about/</loc>
         
-          <lastmod>2024-01-15T00:00:00.000Z</lastmod>
+          <lastmod>2024-01-15T02:56:54.855Z</lastmod>
+        
+        
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://jendewalt.com/</loc>
+        
+          <lastmod>2024-01-15T02:56:54.858Z</lastmod>
         
         
         
