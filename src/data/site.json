@@ -7,7 +7,7 @@
     "email": "jen.dewalt@gmail.com",
     "twitterHandle": "@JenniferDewalt"
   },
-  "defaultSocialImage": "/images/default-social-image.png",
+  "defaultSocialImage": "/images/jen_dewalt_headshot.jpeg",
   "headerLinks": [
     {
       "text": "Blog",
@@ -27,15 +27,20 @@
       "external": true
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/jendewalt",
-      "external": true
-    },
-    {
       "text": "Twitter",
       "url": "https://twitter.com/jenniferdewalt",
       "external": true
-    }
+  },
+  {
+	  "text": "GitHub",
+	  "url": "https://github.com/jendewalt",
+	  "external": true
+  },
+  {
+	"text": "LinkedIn",
+	"url": "https://www.linkedin.com/in/jenniferdewalt/",
+	"external": true
+  }
   ],
   "footerLinks": [
     {

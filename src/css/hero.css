@@ -7,6 +7,10 @@
   font-size: var(--text-5xl);
 }
 
+.hero h1 .purple {
+	/* color: #8b00e1; */
+}
+
 .hero p {
   font-size: var(--text-2xl);
   margin-top: 1rem;

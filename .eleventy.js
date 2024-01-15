@@ -5,6 +5,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const htmlmin = require('html-minifier')
 const fs = require('fs');
 const path = require('path');
+const footnotes = require('eleventy-plugin-footnotes')
 
 const isDev = process.env.ELEVENTY_ENV === 'development';
 const isProd = process.env.ELEVENTY_ENV === 'production'
@@ -117,6 +118,8 @@ module.exports = function (eleventyConfig) {
         return !generalTags.includes(tag);
       });
   });
+
+  eleventyConfig.addPlugin(footnotes, { /* … */ });
 
   eleventyConfig.addTransform('htmlmin', function(content, outputPath) {
     if ( outputPath && outputPath.endsWith(".html") && isProd) {
